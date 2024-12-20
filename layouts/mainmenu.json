@@ -1,0 +1,5194 @@
+{
+  "b": 37,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "MainMenu",
+  "name": "MainMenu",
+  "r": 24,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 20,
+  "uiSettings": {
+    "grid": true,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": true,
+    "zoomFactor": 0.6762531509906397,
+    "windowMask": false
+  },
+  "objectsGroups": [
+    {
+      "name": "Buttons",
+      "objects": [
+        {
+          "name": "Play"
+        },
+        {
+          "name": "Credits"
+        },
+        {
+          "name": "Instructions"
+        },
+        {
+          "name": "QuitGame"
+        },
+        {
+          "name": "IntroBtn"
+        },
+        {
+          "name": "LeaderBtn"
+        },
+        {
+          "name": "cjCodingBtn"
+        },
+        {
+          "name": "GameModes"
+        },
+        {
+          "name": "LoginBtn"
+        }
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "folded": true,
+      "name": "TempSettings",
+      "type": "string",
+      "value": ""
+    }
+  ],
+  "instances": [
+    {
+      "angle": 357,
+      "customSize": true,
+      "height": 127,
+      "layer": "Title",
+      "name": "Title",
+      "persistentUuid": "e085a9cb-0111-4e77-9c02-bf87d81facd0",
+      "width": 379,
+      "x": 197,
+      "y": 23,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 50,
+      "layer": "",
+      "name": "Play",
+      "persistentUuid": "bd030748-dd27-4603-86f0-e028af4a1216",
+      "width": 102,
+      "x": 333,
+      "y": 191,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "name": "Marker",
+      "persistentUuid": "97fbd7e1-d18e-4db4-9b32-aa44006ba598",
+      "width": 768,
+      "x": 0,
+      "y": 0,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "transition",
+      "name": "Transition",
+      "persistentUuid": "f6a12ffd-a250-4a99-80ec-4ed637f58e38",
+      "width": 0,
+      "x": 1056,
+      "y": -160,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Credits",
+      "persistentUuid": "81febf41-8287-49a6-9e7f-bf9d0c4839d3",
+      "width": 0,
+      "x": 290,
+      "y": 250,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CreditsTransition",
+      "persistentUuid": "fc7cdc08-627a-4321-9b18-2078fbde556b",
+      "width": 0,
+      "x": 1044,
+      "y": -162,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "MenuIntroTransition",
+      "persistentUuid": "0b66fe44-7471-4e75-83b1-4f517e38f8c4",
+      "width": 0,
+      "x": 1032,
+      "y": -166,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 128,
+      "keepRatio": true,
+      "layer": "",
+      "name": "PlayerTitle",
+      "persistentUuid": "68bbebd6-3b3c-410d-9e77-fc4a26c0e546",
+      "width": 128,
+      "x": 60,
+      "y": 224,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 135.59999999999982,
+      "keepRatio": true,
+      "layer": "",
+      "name": "EnemyTitle",
+      "persistentUuid": "c8debc11-45c1-45a1-ad21-a568bd432d20",
+      "width": 113,
+      "x": 642,
+      "y": 193,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "transition",
+      "name": "QuitTransition",
+      "persistentUuid": "a768fd50-3d00-4c89-8a2c-e6874f04b7ea",
+      "width": 0,
+      "x": 384,
+      "y": 224,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Instructions",
+      "persistentUuid": "b696b26e-679e-4f7b-9ada-71356aa8fe26",
+      "width": 0,
+      "x": 227,
+      "y": 306,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "QuitGame",
+      "persistentUuid": "f7058d47-43b8-4df8-82d8-ef68bdc57dc0",
+      "width": 0,
+      "x": 40,
+      "y": 61,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "transition",
+      "name": "CreditsIntroTransition",
+      "persistentUuid": "b6289cb1-502d-47ad-bf41-0ec9eb5ee15a",
+      "width": 0,
+      "x": 384,
+      "y": 224,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "LoadingDarken",
+      "persistentUuid": "d03d2c13-ecdf-493a-a6cb-2a9a254f7e26",
+      "width": 0,
+      "x": 384,
+      "y": 224,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "transition",
+      "name": "IntroTransition",
+      "persistentUuid": "24517f5e-1298-4f7c-af04-c3c0bb913014",
+      "width": 0,
+      "x": 384,
+      "y": 224,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "IntroBtn",
+      "persistentUuid": "ff2f6d17-2b56-4a5e-ba23-4a976e7e14e0",
+      "width": 0,
+      "x": 580,
+      "y": 50,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "LeaderBtn",
+      "persistentUuid": "ad598c56-a9cf-476f-bd52-438937761155",
+      "width": 0,
+      "x": 221,
+      "y": 370,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "cjCodingBtn",
+      "persistentUuid": "04599bdc-d5d3-416d-a0fc-89cedf79603b",
+      "width": 0,
+      "x": 555,
+      "y": 377,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "transition",
+      "name": "LeaderboardTransition",
+      "persistentUuid": "03a14962-3333-4196-99ba-d5541b7fa597",
+      "width": 0,
+      "x": 384,
+      "y": 224,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "GameModes",
+      "persistentUuid": "cf6a1efb-3efe-49e1-bf44-f99251d25d5d",
+      "width": 0,
+      "x": 48,
+      "y": 376,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "transition",
+      "name": "ModesTransition",
+      "persistentUuid": "4731176e-69ee-4cde-b301-0dcabe16381c",
+      "width": 0,
+      "x": 384,
+      "y": 224,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "LoginBtn",
+      "persistentUuid": "4f1c40a5-55a1-451d-ac0c-e863acd20e72",
+      "width": 0,
+      "x": 34,
+      "y": 125,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "name": "Title",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "BLAH DEFENSE",
+        "opacity": 255,
+        "scale": 4,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
+        "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited3.png",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Play",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 2,
+            "thickness": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 0
+        }
+      ],
+      "content": {
+        "text": "Play",
+        "opacity": 255,
+        "scale": 2,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
+        "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited3.png",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "Marker",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Enemy_Spawn_Location.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Credits",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "content": {
+        "text": "Credits",
+        "opacity": 255,
+        "scale": 2,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
+        "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited3.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "c57f38c31351d633b955c1ee10c00926c602e44ba3f0bfaaf611cebb031deb79",
+      "name": "PlayerTitle",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.0909,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ninja Frog_Idle_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 32
+                      },
+                      {
+                        "x": 4,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ninja Frog_Idle_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 32
+                      },
+                      {
+                        "x": 4,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ninja Frog_Idle_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 32
+                      },
+                      {
+                        "x": 4,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ninja Frog_Idle_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 32
+                      },
+                      {
+                        "x": 4,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ninja Frog_Idle_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 32
+                      },
+                      {
+                        "x": 4,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ninja Frog_Idle_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 32
+                      },
+                      {
+                        "x": 4,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ninja Frog_Idle_7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 32
+                      },
+                      {
+                        "x": 4,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ninja Frog_Idle_8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 32
+                      },
+                      {
+                        "x": 4,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ninja Frog_Idle_9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 32
+                      },
+                      {
+                        "x": 4,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ninja Frog_Idle_10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 32
+                      },
+                      {
+                        "x": 4,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ninja Frog_Idle_11.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 32
+                      },
+                      {
+                        "x": 4,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Run",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.0833,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ninja Frog_Run_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 32
+                      },
+                      {
+                        "x": 4,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ninja Frog_Run_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 32
+                      },
+                      {
+                        "x": 4,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ninja Frog_Run_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 32
+                      },
+                      {
+                        "x": 4,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ninja Frog_Run_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 32
+                      },
+                      {
+                        "x": 4,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ninja Frog_Run_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 32
+                      },
+                      {
+                        "x": 4,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ninja Frog_Run_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 32
+                      },
+                      {
+                        "x": 4,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ninja Frog_Run_7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 32
+                      },
+                      {
+                        "x": 4,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ninja Frog_Run_8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 32
+                      },
+                      {
+                        "x": 4,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ninja Frog_Run_9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 32
+                      },
+                      {
+                        "x": 4,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ninja Frog_Run_10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 32
+                      },
+                      {
+                        "x": 4,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ninja Frog_Run_11.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 32
+                      },
+                      {
+                        "x": 4,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ninja Frog_Run_12.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 32
+                      },
+                      {
+                        "x": 4,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jump",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ninja Frog_Jump.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 32
+                      },
+                      {
+                        "x": 4,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Fall",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ninja Frog_Fall.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 32
+                      },
+                      {
+                        "x": 4,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hit",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1429,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ninja Frog_Hit_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 32
+                      },
+                      {
+                        "x": 4,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ninja Frog_Hit_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 32
+                      },
+                      {
+                        "x": 4,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ninja Frog_Hit_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 32
+                      },
+                      {
+                        "x": 4,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ninja Frog_Hit_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 32
+                      },
+                      {
+                        "x": 4,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ninja Frog_Hit_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 32
+                      },
+                      {
+                        "x": 4,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ninja Frog_Hit_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 32
+                      },
+                      {
+                        "x": 4,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ninja Frog_Hit_7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 32
+                      },
+                      {
+                        "x": 4,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Double Jump",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1667,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ninja Frog_Double Jump_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 32
+                      },
+                      {
+                        "x": 4,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ninja Frog_Double Jump_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 32
+                      },
+                      {
+                        "x": 4,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ninja Frog_Double Jump_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 32
+                      },
+                      {
+                        "x": 4,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ninja Frog_Double Jump_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 32
+                      },
+                      {
+                        "x": 4,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ninja Frog_Double Jump_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 32
+                      },
+                      {
+                        "x": 4,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ninja Frog_Double Jump_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 32
+                      },
+                      {
+                        "x": 4,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Wall Jump",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.2,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ninja Frog_Wall Jump_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 32
+                      },
+                      {
+                        "x": 4,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ninja Frog_Wall Jump_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 32
+                      },
+                      {
+                        "x": 4,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ninja Frog_Wall Jump_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 32
+                      },
+                      {
+                        "x": 4,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ninja Frog_Wall Jump_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 32
+                      },
+                      {
+                        "x": 4,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ninja Frog_Wall Jump_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 32
+                      },
+                      {
+                        "x": 4,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "EnemyTitle",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Health",
+          "type": "Health::Health",
+          "Health": 3,
+          "CurrentHealth": 0,
+          "MaxHealth": 3,
+          "DamageCooldown": 0,
+          "IsHealthJustDamaged": false,
+          "HealthRegenRate": 0,
+          "HealthRegenDelay": 0,
+          "AllowOverHealing": false,
+          "HitAtLeastOnce": false,
+          "IsJustHealed": false,
+          "CurrentShieldPoints": 0,
+          "MaxShieldPoints": 0,
+          "ShieldDuration": 5,
+          "ShieldRegenRate": 0,
+          "BlockExcessDamage": false,
+          "ShieldRegenDelay": 0,
+          "IsShieldJustDamaged": false,
+          "ChanceToDodge": 0,
+          "DamageToBeApplied": 0,
+          "FlatDamageReduction": 0,
+          "PercentDamageReduction": 0,
+          "IsJustDodged": false,
+          "ShieldDamageTaken": 0,
+          "HealToBeApplied": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "Walking",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.125,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "FatBird_Idle_1.png",
+                  "points": [
+                    {
+                      "name": "HealthBar",
+                      "x": 12,
+                      "y": 3
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 22
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 44
+                      },
+                      {
+                        "x": 2,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "FatBird_Idle_2.png",
+                  "points": [
+                    {
+                      "name": "HealthBar",
+                      "x": 12,
+                      "y": 3
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 22
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 44
+                      },
+                      {
+                        "x": 2,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "FatBird_Idle_3.png",
+                  "points": [
+                    {
+                      "name": "HealthBar",
+                      "x": 12,
+                      "y": 3
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 22
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 44
+                      },
+                      {
+                        "x": 2,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "FatBird_Idle_4.png",
+                  "points": [
+                    {
+                      "name": "HealthBar",
+                      "x": 12,
+                      "y": 3
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 22
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 44
+                      },
+                      {
+                        "x": 2,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "FatBird_Idle_5.png",
+                  "points": [
+                    {
+                      "name": "HealthBar",
+                      "x": 12,
+                      "y": 3
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 22
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 44
+                      },
+                      {
+                        "x": 2,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "FatBird_Idle_6.png",
+                  "points": [
+                    {
+                      "name": "HealthBar",
+                      "x": 12,
+                      "y": 3
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 22
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 44
+                      },
+                      {
+                        "x": 2,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "FatBird_Idle_7.png",
+                  "points": [
+                    {
+                      "name": "HealthBar",
+                      "x": 12,
+                      "y": 3
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 22
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 44
+                      },
+                      {
+                        "x": 2,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "FatBird_Idle_8.png",
+                  "points": [
+                    {
+                      "name": "HealthBar",
+                      "x": 12,
+                      "y": 3
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 22
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 44
+                      },
+                      {
+                        "x": 2,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hurt",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.125,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "FatBird_Idle_1.png",
+                  "points": [
+                    {
+                      "name": "HealthBar",
+                      "x": 12,
+                      "y": 3
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 22
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 44
+                      },
+                      {
+                        "x": 2,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "FatBird_Idle_2.png",
+                  "points": [
+                    {
+                      "name": "HealthBar",
+                      "x": 12,
+                      "y": 3
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 22
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 44
+                      },
+                      {
+                        "x": 2,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "FatBird_Idle_3.png",
+                  "points": [
+                    {
+                      "name": "HealthBar",
+                      "x": 12,
+                      "y": 3
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 22
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 44
+                      },
+                      {
+                        "x": 2,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "FatBird_Idle_4.png",
+                  "points": [
+                    {
+                      "name": "HealthBar",
+                      "x": 12,
+                      "y": 3
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 22
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 44
+                      },
+                      {
+                        "x": 2,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "FatBird_Idle_5.png",
+                  "points": [
+                    {
+                      "name": "HealthBar",
+                      "x": 12,
+                      "y": 3
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 22
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 44
+                      },
+                      {
+                        "x": 2,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "FatBird_Idle_6.png",
+                  "points": [
+                    {
+                      "name": "HealthBar",
+                      "x": 12,
+                      "y": 3
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 22
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 44
+                      },
+                      {
+                        "x": 2,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "FatBird_Idle_7.png",
+                  "points": [
+                    {
+                      "name": "HealthBar",
+                      "x": 12,
+                      "y": 3
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 22
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 44
+                      },
+                      {
+                        "x": 2,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "FatBird_Idle_8.png",
+                  "points": [
+                    {
+                      "name": "HealthBar",
+                      "x": 12,
+                      "y": 3
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 22
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 44
+                      },
+                      {
+                        "x": 2,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.125,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "FatBird_Idle_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 44
+                      },
+                      {
+                        "x": 2,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "FatBird_Idle_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 44
+                      },
+                      {
+                        "x": 2,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "FatBird_Idle_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 44
+                      },
+                      {
+                        "x": 2,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "FatBird_Idle_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 44
+                      },
+                      {
+                        "x": 2,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "FatBird_Idle_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 44
+                      },
+                      {
+                        "x": 2,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "FatBird_Idle_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 44
+                      },
+                      {
+                        "x": 2,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "FatBird_Idle_7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 44
+                      },
+                      {
+                        "x": 2,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "FatBird_Idle_8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 44
+                      },
+                      {
+                        "x": 2,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Ground",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.25,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "FatBird_Ground_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 44
+                      },
+                      {
+                        "x": 2,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "FatBird_Ground_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 44
+                      },
+                      {
+                        "x": 2,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "FatBird_Ground_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 44
+                      },
+                      {
+                        "x": 2,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "FatBird_Ground_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 44
+                      },
+                      {
+                        "x": 2,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Fall",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.25,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "FatBird_Fall_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 44
+                      },
+                      {
+                        "x": 2,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "FatBird_Fall_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 44
+                      },
+                      {
+                        "x": 2,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "FatBird_Fall_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 44
+                      },
+                      {
+                        "x": 2,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "FatBird_Fall_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 44
+                      },
+                      {
+                        "x": 2,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hit",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.2,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "FatBird_Hit_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 44
+                      },
+                      {
+                        "x": 2,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "FatBird_Hit_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 44
+                      },
+                      {
+                        "x": 2,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "FatBird_Hit_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 44
+                      },
+                      {
+                        "x": 2,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "FatBird_Hit_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 44
+                      },
+                      {
+                        "x": 2,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "FatBird_Hit_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 44
+                      },
+                      {
+                        "x": 2,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Instructions",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "content": {
+        "text": "Instructions",
+        "opacity": 255,
+        "scale": 2,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
+        "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited3.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "QuitGame",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 2,
+            "thickness": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 0
+        }
+      ],
+      "content": {
+        "text": "Quit",
+        "opacity": 255,
+        "scale": 2,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
+        "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited3.png",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "IntroBtn",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "content": {
+        "text": "Intro",
+        "opacity": 255,
+        "scale": 2,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
+        "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited3.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "LeaderBtn",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "content": {
+        "text": "Leaderboard",
+        "opacity": 255,
+        "scale": 2,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
+        "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited3.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "cjCodingBtn",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "content": {
+        "text": "Play on cjCoding",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
+        "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited3.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "GameModes",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 2,
+            "thickness": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 0
+        }
+      ],
+      "content": {
+        "text": "Game Modes...",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
+        "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited3.png",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "LoginBtn",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 2,
+            "thickness": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 0
+        }
+      ],
+      "content": {
+        "text": "Login",
+        "opacity": 255,
+        "scale": 2,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
+        "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited3.png",
+        "align": "left",
+        "wordWrap": true
+      }
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Marker"
+      },
+      {
+        "objectName": "Title"
+      },
+      {
+        "objectName": "Play"
+      },
+      {
+        "objectName": "GameModes"
+      },
+      {
+        "objectName": "QuitGame"
+      },
+      {
+        "objectName": "LoginBtn"
+      },
+      {
+        "objectName": "Credits"
+      },
+      {
+        "objectName": "Instructions"
+      },
+      {
+        "objectName": "IntroBtn"
+      },
+      {
+        "objectName": "LeaderBtn"
+      },
+      {
+        "objectName": "cjCodingBtn"
+      },
+      {
+        "objectName": "PlayerTitle"
+      },
+      {
+        "objectName": "EnemyTitle"
+      }
+    ]
+  },
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Setting game defaults and loading in saved settings"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Marker"
+          ]
+        },
+        {
+          "type": {
+            "value": "ZoomCamera"
+          },
+          "parameters": [
+            "",
+            "1.5",
+            "\"transition\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+          },
+          "parameters": [
+            "MenuIntroTransition",
+            "FlashTransitionPainter",
+            "\"0;0;0\"",
+            "1",
+            "\"Circular\"",
+            "\"Backward\"",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "PlayerTitle",
+            "Animation",
+            "=",
+            "\"Idle\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeLayer"
+          },
+          "parameters": [
+            "CreditsTransition",
+            "\"transition\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeLayer"
+          },
+          "parameters": [
+            "MenuIntroTransition",
+            "\"transition\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "EnemyTitle",
+            "Animation",
+            "=",
+            "\"Idle\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetFullScreen"
+          },
+          "parameters": [
+            "",
+            "yes",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "One Man Symphony - Reflective District (Free) - 06 Chase Starts (Action 01 Loops).mp3",
+            "yes",
+            "75",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AuthorizedPlatformsValidation::AddExecution"
+          },
+          "parameters": [
+            "",
+            "\"www.cjcoding.com\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "LoginBtn"
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "LoginBtn",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::And"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "InternetConnectivity::IsDeviceOnline"
+              },
+              "parameters": [
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "AuthorizedPlatformsValidation::CheckExecution"
+              },
+              "parameters": [
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "cjCodingBtn",
+            "ButtonFSM",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "cjCodingBtn",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "LoginBtn",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "LoginBtn",
+            "ButtonFSM",
+            "yes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "InternetConnectivity::IsDeviceOnline"
+              },
+              "parameters": [
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AuthorizedPlatformsValidation::CheckExecution"
+              },
+              "parameters": [
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "cjCodingBtn"
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "cjCodingBtn",
+            "ButtonFSM",
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "LoginBtn"
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "LoginBtn",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "cjCodingLogin::IsLoggedIn"
+          },
+          "parameters": [
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "LoginBtn"
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "LoginBtn",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "InternetConnectivity::IsDeviceOnline"
+          },
+          "parameters": [
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "LeaderBtn",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "LeaderBtn",
+            "ButtonFSM",
+            "yes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "cjCodingBtn",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "LaunchFile"
+          },
+          "parameters": [
+            "\"https://www.cjcoding.com/other/other.php?id=15\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "InternetConnectivity::IsDeviceOnline"
+          },
+          "parameters": [
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "LeaderBtn",
+            "ButtonFSM",
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "LeaderBtn"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Visual and sound effects when interacting with the Buttons"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsHovered"
+          },
+          "parameters": [
+            "Buttons",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "EnableEffect"
+          },
+          "parameters": [
+            "Buttons",
+            "\"Effect\"",
+            "yes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "ButtonStates::ButtonFSM::IsHovered"
+          },
+          "parameters": [
+            "Buttons",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "EnableEffect"
+          },
+          "parameters": [
+            "Buttons",
+            "\"Effect\"",
+            "no"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "Buttons",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "metal-clang.mp3",
+            "",
+            "100",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Results for Buttons being clicked"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "Play",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+          },
+          "parameters": [
+            "Transition",
+            "FlashTransitionPainter",
+            "\"0;0;0\"",
+            "1",
+            "\"Circular\"",
+            "\"Forward\"",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetFullScreen"
+          },
+          "parameters": [
+            "",
+            "yes",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffectIsEnd"
+          },
+          "parameters": [
+            "Transition",
+            "FlashTransitionPainter",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Game\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "Credits",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+          },
+          "parameters": [
+            "CreditsTransition",
+            "FlashTransitionPainter",
+            "\"0;0;0\"",
+            "1",
+            "\"Circular\"",
+            "\"Forward\"",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetFullScreen"
+          },
+          "parameters": [
+            "",
+            "yes",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "Instructions",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+          },
+          "parameters": [
+            "QuitTransition",
+            "FlashTransitionPainter",
+            "\"0;0;0\"",
+            "1",
+            "\"Circular\"",
+            "\"Forward\"",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "IntroBtn",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+          },
+          "parameters": [
+            "IntroTransition",
+            "FlashTransitionPainter",
+            "\"0;0;0\"",
+            "1",
+            "\"Circular\"",
+            "\"Forward\"",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "LeaderBtn",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+          },
+          "parameters": [
+            "LeaderboardTransition",
+            "FlashTransitionPainter",
+            "\"0;0;0\"",
+            "1",
+            "\"Circular\"",
+            "\"Forward\"",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffectIsEnd"
+          },
+          "parameters": [
+            "LeaderboardTransition",
+            "FlashTransitionPainter",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Leaderboard\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffectIsEnd"
+          },
+          "parameters": [
+            "CreditsTransition",
+            "FlashTransitionPainter",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Credits\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffectIsEnd"
+          },
+          "parameters": [
+            "QuitTransition",
+            "FlashTransitionPainter",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Instructions\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "QuitGame",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+          },
+          "parameters": [
+            "CreditsIntroTransition",
+            "FlashTransitionPainter",
+            "\"0;0;0\"",
+            "1",
+            "\"Circular\"",
+            "\"Forward\"",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "GameModes",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+          },
+          "parameters": [
+            "ModesTransition",
+            "FlashTransitionPainter",
+            "\"0;0;0\"",
+            "1",
+            "\"Circular\"",
+            "\"Forward\"",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffectIsEnd"
+          },
+          "parameters": [
+            "ModesTransition",
+            "FlashTransitionPainter",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"GameModeMenu\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffectIsEnd"
+          },
+          "parameters": [
+            "CreditsIntroTransition",
+            "FlashTransitionPainter",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"QuitConfirm\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffectIsEnd"
+          },
+          "parameters": [
+            "IntroTransition",
+            "FlashTransitionPainter",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"IntroIcon\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "LoginBtn",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "cjCodingLogin::Authenticate"
+          },
+          "parameters": [
+            "",
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 14020160,
+      "ambientLightColorG": 0,
+      "ambientLightColorR": 150995054,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "cameraType": "perspective",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 14164184,
+      "ambientLightColorG": 12,
+      "ambientLightColorR": 6071152,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "cameraType": "perspective",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Title",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 11611592,
+      "ambientLightColorG": 12,
+      "ambientLightColorR": 6070592,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "cameraType": "perspective",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "transition",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "ButtonFSM",
+      "type": "ButtonStates::ButtonFSM"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "FlashTransitionPainter",
+      "type": "FlashTransitionPainter::FlashTransitionPainter"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Health",
+      "type": "Health::Health"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
+    }
+  ]
+}

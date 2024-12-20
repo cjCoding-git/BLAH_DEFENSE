@@ -1,0 +1,185 @@
+{
+  "author": "",
+  "category": "General",
+  "extensionNamespace": "",
+  "fullName": "cjCoding Leaderboard",
+  "helpPath": "",
+  "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjMsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iSWNvbnMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9DQoJLnN0MXtmaWxsOm5vbmU7c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjI7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjEwO30NCjwvc3R5bGU+DQo8ZWxsaXBzZSBjbGFzcz0ic3QwIiBjeD0iMTQiIGN5PSI4IiByeD0iMTAiIHJ5PSI1Ii8+DQo8bGluZSBjbGFzcz0ic3QwIiB4MT0iMjQiIHkxPSIxNiIgeDI9IjI0IiB5Mj0iOCIvPg0KPHBhdGggY2xhc3M9InN0MCIgZD0iTTQsOHY4YzAsMi44LDQuNSw1LDEwLDVjMS4yLDAsMi4zLTAuMSwzLjQtMC4zIi8+DQo8cGF0aCBjbGFzcz0ic3QwIiBkPSJNNCwxNnY4YzAsMi44LDQuNSw1LDEwLDVjMiwwLDMuOC0wLjMsNS4zLTAuOCIvPg0KPGNpcmNsZSBjbGFzcz0ic3QwIiBjeD0iMjQiIGN5PSIyMyIgcj0iNyIvPg0KPGxpbmUgY2xhc3M9InN0MCIgeDE9IjI0IiB5MT0iMzAiIHgyPSIyNCIgeTI9IjIwIi8+DQo8cG9seWxpbmUgY2xhc3M9InN0MCIgcG9pbnRzPSIyNywyMyAyNCwyMCAyMSwyMyAiLz4NCjwvc3ZnPg0K",
+  "name": "cjCodingLeaderboard",
+  "previewIconUrl": "https://asset-resources.gdevelop.io/public-resources/Icons/Line Hero Pack/Master/SVG/Applications and Programming/5ab4c2e63d29feecb5149d08bf88314c932106f8ca09a833c96a75c681edf7dd_Applications and Programming_database_data_base_upload.svg",
+  "shortDescription": "Use cjCoding as a more configurable leaderboard provider.",
+  "version": "1.0.0",
+  "description": "Use cjCoding as a more configurable leaderboard provider.",
+  "tags": [],
+  "authorIds": [
+    "CvOychXrk3V71EnhMfePlBl8umA2"
+  ],
+  "dependencies": [],
+  "globalVariables": [],
+  "sceneVariables": [],
+  "eventsFunctions": [
+    {
+      "description": "Update A cjCoding Leaderboard",
+      "fullName": "Update cjCoding Leaderboard",
+      "functionType": "Action",
+      "name": "SetScore",
+      "sentence": "Update _PARAM1_ cjCoding Leaderboard by adding score _PARAM2_ for random name with prefix _PARAM3_ and a random number up to _PARAM4_.",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "const urlParams = new URLSearchParams(window.location.search);",
+            "var username = \"\";",
+            "if(username == \"\" && urlParams.get('loggedIn') == \"true\") {",
+            "    username = urlParams.get('name');",
+            "}",
+            "if(username == \"\" && window.cjCodingName != undefined) {",
+            "    username = window.cjCodingName;",
+            "}",
+            "if(username == \"\") {",
+            "    var prefix = eventsFunctionContext.getArgument('randomPrefix');",
+            "    var randNum = Math.floor(Math.random() * parseInt(eventsFunctionContext.getArgument('randomMaxNumber')));",
+            "    var name = prefix + \"-\" + (randNum.toString());",
+            "    username = name;",
+            "}",
+            "try {",
+            "    if(window.pushScores == undefined) {",
+            "        window.pushScores = [];",
+            "    }",
+            "    if(!navigator !== \"undefined\" && navigator.onLine == false) {",
+            "        window.pushScores[window.pushScores.length] = 'https://www.cjcoding.com/api/gd_games/updatelb.php?gid=' + eventsFunctionContext.getArgument('gid') + '&username=' + username + '&score=' + eventsFunctionContext.getArgument('score');",
+            "        window.scoresPending = true;",
+            "        if(window.scoreInterval == undefined) {",
+            "            window.scoreInterval = setInterval(function() {",
+            "                if(navigator.onLine) {",
+            "                    window.scoresPending = false;",
+            "                    try {",
+            "                        for(var i=0;i<window.pushScores.length;i++) {",
+            "                            fetch(window.pushScores[i]);",
+            "                        }",
+            "                    } catch(err) {}",
+            "                    window.pushScores = [];",
+            "                    clearInterval(window.scoreInterval);",
+            "                    window.scoreInterval = undefined;",
+            "                }",
+            "            }, 1000);",
+            "        }",
+            "    }",
+            "    fetch('https://www.cjcoding.com/api/gd_games/updatelb.php?gid=' + eventsFunctionContext.getArgument('gid') + '&username=' + username + '&score=' + eventsFunctionContext.getArgument('score'));",
+            "    console.log(\"Successfully updated cjCoding leaderboard.\");",
+            "} catch(err) {",
+            "    console.log(\"Could not update cjCoding leaderboard: \" + err);",
+            "}"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Game ID",
+          "name": "gid",
+          "type": "string"
+        },
+        {
+          "description": "Score",
+          "name": "score",
+          "type": "expression"
+        },
+        {
+          "description": "Random Username Prefix",
+          "name": "randomPrefix",
+          "type": "string"
+        },
+        {
+          "description": "Random Username Max Number",
+          "name": "randomMaxNumber",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Get leaderboard string",
+      "fullName": "Display leaderboard",
+      "functionType": "Action",
+      "name": "GetBoard",
+      "sentence": "Show cjCoding leaderboard for _PARAM1_ limited to _PARAM2_ scores in text object _PARAM3_.",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "(async function(eventsFunctionContext) {",
+            "var td = new TextDecoder();",
+            "var r_raw = await fetch('https://www.cjcoding.com/api/gd_games/get_lb_disp.php?gid=' + eventsFunctionContext.getArgument('gid') + '&rows=' + eventsFunctionContext.getArgument('maxRows'));",
+            "var r_raw_reader = r_raw.body.getReader();",
+            "var r_raw_reader_response = await r_raw_reader.read();",
+            "var r_raw_reader_value = r_raw_reader_response.value;",
+            "var r_raw_text = td.decode(r_raw_reader_value);",
+            "var r = JSON.parse(r_raw_text);",
+            "var h = \"RANK USERNAME\" + \" \".repeat(14) + \"SCORE \\n\";",
+            "var lstrs = [];",
+            "for(var i=0;i<r.length;i++) {",
+            "    var  p = r[i];",
+            "    var rnk = p.rank.toString();",
+            "    if(rnk.length > 4) {",
+            "        rnk = rnk.substring(0, 4) + \" \";",
+            "    } else {",
+            "        rnk = rnk + \" \".repeat(5 - rnk.length);",
+            "    }",
+            "    var un = p.uname;",
+            "    if(un.length > 21) {",
+            "        un = un.substring(0, 21) + \" \";",
+            "    } else {",
+            "        un = un + \" \".repeat(22 - un.length);",
+            "    }",
+            "    var sc = p.score.toString();",
+            "    if(sc.length > 5) {",
+            "        sc = sc.substring(0, 5) + \" \";",
+            "    } else {",
+            "       sc = sc + \" \".repeat(6 - sc.length);",
+            "    }",
+            "    lstrs[lstrs.length] = rnk + un + sc + \"\\n\";",
+            "}",
+            "var lstr = h;",
+            "for(var i=0;i<lstrs.length;i++) {",
+            "    lstr = lstr + lstrs[i];",
+            "}",
+            "return { 'text': lstr, 'efc': eventsFunctionContext };",
+            "})(eventsFunctionContext).then(function(value) {",
+            "    var efc = value.efc;",
+            "    setTimeout(function() {",
+            "        efc.getObjects('text')[0].setText(value.text);",
+            "    }, 2000);",
+            "});"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Game ID",
+          "name": "gid",
+          "type": "string"
+        },
+        {
+          "description": "Max number of rows",
+          "name": "maxRows",
+          "type": "expression"
+        },
+        {
+          "description": "Text object to display leaderboard in",
+          "name": "text",
+          "supplementaryInformation": "TextObject::Text",
+          "type": "objectList"
+        }
+      ],
+      "objectGroups": []
+    }
+  ],
+  "eventsBasedBehaviors": [],
+  "eventsBasedObjects": []
+}

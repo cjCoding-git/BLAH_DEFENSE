@@ -1,0 +1,1410 @@
+{
+  "b": 37,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "Loading",
+  "name": "Loading",
+  "r": 24,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 20,
+  "uiSettings": {
+    "grid": true,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": true,
+    "zoomFactor": 0.4112097826234388,
+    "windowMask": false
+  },
+  "objectsGroups": [
+    {
+      "name": "Buttons",
+      "objects": []
+    }
+  ],
+  "variables": [
+    {
+      "folded": true,
+      "name": "TempSettings",
+      "type": "string",
+      "value": ""
+    }
+  ],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 186,
+      "layer": "",
+      "name": "LoadingStatus",
+      "persistentUuid": "bd030748-dd27-4603-86f0-e028af4a1216",
+      "width": 635,
+      "x": 56,
+      "y": 200,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "name": "Marker",
+      "persistentUuid": "97fbd7e1-d18e-4db4-9b32-aa44006ba598",
+      "width": 768,
+      "x": 0,
+      "y": 0,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "transition",
+      "name": "Transition",
+      "persistentUuid": "f6a12ffd-a250-4a99-80ec-4ed637f58e38",
+      "width": 0,
+      "x": 1056,
+      "y": -160,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CreditsTransition",
+      "persistentUuid": "fc7cdc08-627a-4321-9b18-2078fbde556b",
+      "width": 0,
+      "x": 1044,
+      "y": -162,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "MenuIntroTransition",
+      "persistentUuid": "0b66fe44-7471-4e75-83b1-4f517e38f8c4",
+      "width": 0,
+      "x": 1032,
+      "y": -166,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "transition",
+      "name": "QuitTransition",
+      "persistentUuid": "a768fd50-3d00-4c89-8a2c-e6874f04b7ea",
+      "width": 0,
+      "x": 384,
+      "y": 224,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "transition",
+      "name": "CreditsIntroTransition",
+      "persistentUuid": "b6289cb1-502d-47ad-bf41-0ec9eb5ee15a",
+      "width": 0,
+      "x": 384,
+      "y": 224,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "LoadingDarken",
+      "persistentUuid": "d03d2c13-ecdf-493a-a6cb-2a9a254f7e26",
+      "width": 0,
+      "x": 384,
+      "y": 224,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "LoadingTitle",
+      "persistentUuid": "a3ca7f92-5649-4d57-8933-69207b9a2f04",
+      "width": 0,
+      "x": 192,
+      "y": 64,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "name": "LoadingTitle",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "LOADING...",
+        "opacity": 255,
+        "scale": 4,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
+        "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited3.png",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "LoadingStatus",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 0
+        }
+      ],
+      "content": {
+        "text": "Preparing...",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
+        "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited3.png",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "Marker",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Enemy_Spawn_Location.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Marker"
+      },
+      {
+        "objectName": "LoadingTitle"
+      },
+      {
+        "objectName": "LoadingStatus"
+      }
+    ]
+  },
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Setting game defaults and loading in saved settings"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Marker"
+          ]
+        },
+        {
+          "type": {
+            "value": "ZoomCamera"
+          },
+          "parameters": [
+            "",
+            "1.5",
+            "\"transition\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+          },
+          "parameters": [
+            "MenuIntroTransition",
+            "FlashTransitionPainter",
+            "\"0;0;0\"",
+            "1",
+            "\"Circular\"",
+            "\"Backward\"",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeLayer"
+          },
+          "parameters": [
+            "Transition",
+            "\"transition\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeLayer"
+          },
+          "parameters": [
+            "MenuIntroTransition",
+            "\"transition\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetFullScreen"
+          },
+          "parameters": [
+            "",
+            "yes",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "LoadingStatus",
+            "Text",
+            "=",
+            "\"Loading Audio...\nOne Man Symphony - In The Blink Of An Eye (Free) - 02 An Instant Burst (Action 02).mp3\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.25"
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "One Man Symphony - In The Blink Of An Eye (Free) - 02 An Instant Burst (Action 02).mp3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.25"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "LoadingStatus",
+            "Text",
+            "=",
+            "\"Loading Audio...\nOne Man Symphony - Reflective District (Free) - 06 Chase Starts (Action 01 Loops).mp3\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "One Man Symphony - Reflective District (Free) - 06 Chase Starts (Action 01 Loops).mp3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.25"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "LoadingStatus",
+            "Text",
+            "=",
+            "\"Loading Audio...\nOne Man Symphony - After The Disaster (Free) - 02 Night Time Scavenge I (Loops).mp3\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "One Man Symphony - After The Disaster (Free) - 02 Night Time Scavenge I (Loops).mp3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.25"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "LoadingStatus",
+            "Text",
+            "=",
+            "\"Loading Audio...\nOne Man Symphony - Reflective District (Free) - 09 Footsteps At Your Heels (Action 04).mp3\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "One Man Symphony - Reflective District (Free) - 09 Footsteps At Your Heels (Action 04).mp3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.25"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "LoadingStatus",
+            "Text",
+            "=",
+            "\"Loading Audio...\nOne Man Symphony - Reflective District (Free) - 07 No Giving Up Now (Action 02).mp3\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "One Man Symphony - Reflective District (Free) - 07 No Giving Up Now (Action 02).mp3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.25"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "LoadingStatus",
+            "Text",
+            "=",
+            "\"Loading Audio...\nOne Man Symphony - After The Disaster (Free) - 01 Hide and Seek - Hide From Other Survivors.mp3\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "One Man Symphony - After The Disaster (Free) - 01 Hide and Seek - Hide From Other Survivors.mp3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.25"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "LoadingStatus",
+            "Text",
+            "=",
+            "\"Loading Audio...\nGun\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadSound"
+          },
+          "parameters": [
+            "",
+            "Gun"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.25"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "LoadingStatus",
+            "Text",
+            "=",
+            "\"Loading Audio...\nchicken-noise.mp3\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadSound"
+          },
+          "parameters": [
+            "",
+            "chicken-noise.mp3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.25"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "LoadingStatus",
+            "Text",
+            "=",
+            "\"Loading Audio...\nduck-quack.mp3\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadSound"
+          },
+          "parameters": [
+            "",
+            "duck-quack.mp3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.25"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "LoadingStatus",
+            "Text",
+            "=",
+            "\"Loading Audio...\nmetal-clang.mp3\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadSound"
+          },
+          "parameters": [
+            "",
+            "metal-clang.mp3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.25"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "LoadingStatus",
+            "Text",
+            "=",
+            "\"Loading Audio...\nOne Man Symphony - Reflective District Vol- 2 (Free) - 01 Ambiance 02.mp3\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "One Man Symphony - Reflective District Vol- 2 (Free) - 01 Ambiance 02.mp3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.25"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "LoadingStatus",
+            "Text",
+            "=",
+            "\"Loading Audio...\nOne Man Symphony - Reflective District Vol- 2 (Free) - 04 Action 01.mp3\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "One Man Symphony - Reflective District Vol- 2 (Free) - 04 Action 01.mp3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.25"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "LoadingStatus",
+            "Text",
+            "=",
+            "\"Loading Audio...\nOne Man Symphony - Reflective District Vol- 2 (Free) - 03 Background Music 01.mp3\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "One Man Symphony - Reflective District Vol- 2 (Free) - 03 Background Music 01.mp3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "LoadingStatus",
+            "Text",
+            "=",
+            "\"Loading Scenes...\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "LoadingStatus",
+            "Text",
+            "=",
+            "\"Loading Scenes...\nLoading\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrioritizeLoadingOfScene"
+          },
+          "parameters": [
+            "",
+            "\"Loading\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "LoadingStatus",
+            "Text",
+            "=",
+            "\"Loading Scenes...\nMainMenu\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrioritizeLoadingOfScene"
+          },
+          "parameters": [
+            "",
+            "\"MainMenu\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "LoadingStatus",
+            "Text",
+            "=",
+            "\"Loading Scenes...\nQuitConfirm\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrioritizeLoadingOfScene"
+          },
+          "parameters": [
+            "",
+            "\"QuitConfirm\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "LoadingStatus",
+            "Text",
+            "=",
+            "\"Loading Scenes...\nCredits\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrioritizeLoadingOfScene"
+          },
+          "parameters": [
+            "",
+            "\"Credits\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "LoadingStatus",
+            "Text",
+            "=",
+            "\"Loading Scenes...\nInstructions\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrioritizeLoadingOfScene"
+          },
+          "parameters": [
+            "",
+            "\"Instructions\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "LoadingStatus",
+            "Text",
+            "=",
+            "\"Loading Scenes...\nGameOver\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrioritizeLoadingOfScene"
+          },
+          "parameters": [
+            "",
+            "\"GameOver\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "LoadingStatus",
+            "Text",
+            "=",
+            "\"Loading Scenes...\nGame\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrioritizeLoadingOfScene"
+          },
+          "parameters": [
+            "",
+            "\"Game\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "LoadingStatus",
+            "Text",
+            "=",
+            "\"Loading Scenes...\nQuit\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrioritizeLoadingOfScene"
+          },
+          "parameters": [
+            "",
+            "\"Quit\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "LoadingStatus",
+            "Text",
+            "=",
+            "\"Loading Scenes...\nIntro\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrioritizeLoadingOfScene"
+          },
+          "parameters": [
+            "",
+            "\"Intro\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "LoadingStatus",
+            "Text",
+            "=",
+            "\"Loading Scenes...\nIntroIcon\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrioritizeLoadingOfScene"
+          },
+          "parameters": [
+            "",
+            "\"IntroIcon\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "LoadingStatus",
+            "Text",
+            "=",
+            "\"Loading Scenes...\nLeaderboard\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrioritizeLoadingOfScene"
+          },
+          "parameters": [
+            "",
+            "\"Leaderboard\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "LoadingStatus",
+            "Text",
+            "=",
+            "\"Loading Scenes...\nSplash\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrioritizeLoadingOfScene"
+          },
+          "parameters": [
+            "",
+            "\"Splash\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "LoadingStatus",
+            "Text",
+            "=",
+            "\"Waiting...\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "LoadingStatus",
+            "Text",
+            "=",
+            "\"Waiting...\nLoading Assets...\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "LoadingStatus",
+            "Text",
+            "=",
+            "\"Waiting...\nLoading GDevelop Library...\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "LoadingStatus",
+            "Text",
+            "=",
+            "\"Waiting...\nWaiting For Menu...\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "LoadingStatus",
+            "Text",
+            "=",
+            "\"Waiting...\nWaiting For Game...\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "LoadingStatus",
+            "Text",
+            "=",
+            "\"Waiting...\nWaiting For Intro...\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "LoadingStatus",
+            "Text",
+            "=",
+            "\"Waiting...\nStarting...\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "LoadingStatus",
+            "Text",
+            "=",
+            "\"Starting...\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+          },
+          "parameters": [
+            "Transition",
+            "FlashTransitionPainter",
+            "\"0;0;0\"",
+            "1",
+            "\"Circular\"",
+            "\"Forward\"",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffectIsEnd"
+          },
+          "parameters": [
+            "Transition",
+            "FlashTransitionPainter",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"IntroIcon\"",
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 14020160,
+      "ambientLightColorG": 0,
+      "ambientLightColorR": 150995054,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "cameraType": "perspective",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 14164184,
+      "ambientLightColorG": 12,
+      "ambientLightColorR": 6071152,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "cameraType": "perspective",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Title",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 11611592,
+      "ambientLightColorG": 12,
+      "ambientLightColorR": 6070592,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "cameraType": "perspective",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "transition",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "ButtonFSM",
+      "type": "ButtonStates::ButtonFSM"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "FlashTransitionPainter",
+      "type": "FlashTransitionPainter::FlashTransitionPainter"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
+    }
+  ]
+}
