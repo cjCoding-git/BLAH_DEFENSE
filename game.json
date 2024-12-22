@@ -4383,6 +4383,98 @@
           "identifier": "https://project-resources.gdevelop.io/ac2f8c74-65b0-4897-87c9-ff87c6af7e3e/resources/fc0da9a1c0904484c30af835179c65cffbc16f880d3ad88caa06deab43c25191-blagdefense.png",
           "name": "cloud-project-resource"
         }
+      },
+      {
+        "file": "assets/Blah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Blah.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Duck_Idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Duck_Idle_3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Evil_Duck.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Evil_Duck.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Eggplant_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Eggplant_No Shadow.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Gun1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Gun1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Ninja Frog_Idle_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Ninja Frog_Idle_9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiled_Grass and Tree Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Grass and Tree Background.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/ade0704478583ab868504aac427c5b14b4a6696a465663f1cbbac84ff266e4c1_tiled_Grass and Tree Background.png",
+          "name": "tiled_Grass and Tree Background.png"
+        }
+      },
+      {
+        "file": "assets/Toc.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Toc.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiled_Forest Background 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Forest Background 2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/bbc35ecdc7a4c74b8720f17f0f3cac945ba85c3844a9c30c0313051a9b22e1ff_tiled_Forest Background 2.png",
+          "name": "tiled_Forest Background 2.png"
+        }
+      },
+      {
+        "file": "assets/tiled_Alternative castle wall.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Alternative castle wall.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/Building/ef065b13da87bf525842e82bb5fc013fa296384b8a4d768e1e0423b7bdf780f6_tiled_Alternative castle wall.png",
+          "name": "tiled_Alternative castle wall.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -4846,6 +4938,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/credits"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/storyintro"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

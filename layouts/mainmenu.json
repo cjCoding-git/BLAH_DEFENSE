@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.8529640058683656,
+    "zoomFactor": 0.6762531509906397,
     "windowMask": false
   },
   "objectsGroups": [
@@ -4688,7 +4688,7 @@
           },
           "parameters": [
             "",
-            "\"Game\"",
+            "\"Intro\"",
             ""
           ]
         }

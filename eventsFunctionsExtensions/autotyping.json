@@ -706,6 +706,17 @@
               "actions": [
                 {
                   "type": {
+                    "value": "AutoTyping::AutoTyping::SetPropertyFullText"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "=",
+                    "Object.Text::Value()"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "AutoTyping::AutoTyping::SetPropertyTypedText"
                   },
                   "parameters": [
